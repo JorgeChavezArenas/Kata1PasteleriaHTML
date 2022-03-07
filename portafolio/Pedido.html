@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link href="./estilos/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section class="logoPasteleria">
+        <!---Logo Pasteleria-->
+        <a href="HomePasteleria.html"><img src="./img/LogoPasteleria.png" alt="logo" class="logo"></a>
+        
+        </section>
+
+        <!--Nav bar Pasteleria-->
+
+<div class="nav">
+    <ul>
+        <td><a href="Pasteles.html">PASTELES</a></td>
+        <td><a href="Adornos.html">ADORNOS</a></td>
+        <td><a href="Pedido.html">PEDIDO</a></td>
+        <td><a href="Pastelero.html">PASTELERO</a></td>
+        
+    </ul>
+</div>
+
+
+
+
+<!--Formulario-->
+
+
+    <section class="form">
+        <h1>Formulario</h1>
+        <div class="container">
+            <form action="pedido.js">
+            <div class="row">
+            <div class="col-25">
+                <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Escribe tu nombre">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="lname">Apellidos</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Escribe tus apellidos">
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="lname">Correo</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="correo" name="correo" placeholder="Escribe tu Correo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="lname">Telefono</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu telefono">
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="pasteles">Pasteles</label>
+            </div>
+            <div class="col-75">
+                <select id="pasteles" name="pasteles">
+                <option value="chcolate">Pastel de Chocolate</option>
+                <option value="capricho">Pastel el Capricho</option>
+                <option value="moka">Pastel de Moka</option>
+                <option value="zanahoria">Pastel de Zanahoria</option>
+                <option value="fresa">Pastel de Fresa</option>
+                </select>
+            </div>
+            <div class="col-25">
+                <label for="Adornos">Adornos</label>
+            </div>
+            <div class="col-75">
+                <select id="adornos" name="adornos">
+                <option value="chcolate">Vela Luminosa</option>
+                <option value="capricho">Rosa Decorada</option>
+                <option value="moka">Gelatina Rellena</option>
+                <option value="zanahoria">Decoracion con Galletas</option>
+                <option value="fresa">Muffin en Medio</option>
+                </select>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="subject">Descripcion del pastel</label>
+            </div>
+            <div class="col-75">
+                <textarea id="descripcion" name="descripcion" placeholder="Escribe una descripcion del pastel" style="height:100px"></textarea>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <input type="submit" value="Enviar Pedido">
+            </div>
+            </form>
+        </div>
+       
+    </section>
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <div class="footer">
+
+        <div>
+            <ul class="foot">
+                <td><img src="./img/LogoPasteleria.png" alt="logoPasteleria" class="logofooter"></td>
+                <td>Recibe promociones y descuentos en tu correo</td><br>
+                <td><input style="width: 40%;" type="text" name="descuentos" id="descuentos" placeholder="Ingresa tu Email"></td>
+                <td><input type="button" name="inscribete" id="inscribete" value="Inscribete" class="botondescuento"></td>
+                <br>
+                <td>Contacto</td>
+                <br>
+                <td>backeryspace@gmail.com</td><br>
+                <td>Horarios 9:00am 8:00pm</td><br>
+                <td>Telefono</td>
+                <td>381910299933</td><br>
+                <td>Redes Sociales</td><br>
+                <td ><img src="./img/facebook.png" alt="facebook" class="imgredes"></td>
+                <td ><img src="./img/instagram.png" alt="insta" class="imgredes"></td>
+                <td ><img src="./img/gorjeo.png" alt="twitter" class="imgredes"></td>
+            </ul>
+        </div>
+    
+    
+    
+    
+    </div>
+</body>
+</html>
